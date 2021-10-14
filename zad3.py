@@ -1,0 +1,5 @@
+m1 = input("Miasto A:")
+m2 = input("Miasto B:")
+d = int(input("Podaj odległość w km:"))
+x = float(input("Podaj koszt paliwa za km:"))
+print(f"droga z {m1} do {m2} będzie kosztowało: {float(d * x)}zł")
